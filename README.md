@@ -3,7 +3,7 @@
 <h1>Cách đổi miền</h1>
 <pre>
 GỐC: if (url.hostname === "ktshort.com")
-ĐỔI: if (url.hostname === "miền của bạn , đặc đại cũng được.")
+ĐỔI: if (url.hostname === "miền của bạn , đặt đại cũng được.")
 </pre>
 
 <hr>
