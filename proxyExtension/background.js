@@ -31,9 +31,7 @@ chrome.webRequest.onBeforeRequest.addListener(
                 };
 
                 chrome.proxy.settings.set({value: config, scope: "regular"});
-                setInterval(function() {
-                    document.getElementById("status").innerText = "Using proxy: " + proxyParam;
-                }, 1000);
+              
             }
         }
     },
