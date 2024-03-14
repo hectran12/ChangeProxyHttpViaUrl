@@ -11,6 +11,8 @@ GỐC: if (url.hostname === "ktshort.com")
 Đổi proxy:
 <pre>
   https://ktshort.com/?proxy={ip}:{port}
+  nếu có username và password
+  https://ktshort.com/?proxy={ip}:{port}&username=abcxyz&password=abcxyz
 </pre>
 
 Gỡ proxy:
